@@ -19,9 +19,6 @@ def unblock(blockStr):
 
     with open(pathToHostsFile, 'w') as file:
         file.write(''.join(lines))
-        
-        
-    print(lines)
 
 chosenOption = -1
 inputDomain = ""
@@ -51,6 +48,5 @@ while (chosenOption != 0):
         case 0:
             print("Exiting!")
             
-
         case _:
             print("Wrong option, please choose again.")
